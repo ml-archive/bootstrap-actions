@@ -14,10 +14,8 @@ WORKDIR project/
 RUN ls -lisa
 RUN swift package update
 RUN swift build
-run sourcekitten doc --spm-module Bootstrap > Bootstrap.json
+RUN sourcekitten doc --spm-module Bootstrap > Bootstrap.json
 RUN jazzy \
   --clean \
   --sourcekitten-sourcefile Bootstrap.json \
   --module Bootstrap
-WORKDIR docs/
-RUN ls -lisa
