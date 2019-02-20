@@ -9,4 +9,5 @@ workflow "Auto docs" {
 
 action "./action-documentation" {
   uses = "./action-documentation"
+  secrets = ["GITHUB_TOKEN"]
 }
