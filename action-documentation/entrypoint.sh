@@ -1,3 +1,4 @@
 #!/bin/sh -l
 
-ls -lisa
+echo $GH_USER
+echo $GH_EMAIL
