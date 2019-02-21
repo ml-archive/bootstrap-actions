@@ -19,3 +19,5 @@ RUN jazzy \
   --clean \
   --sourcekitten-sourcefile Bootstrap.json \
   --module Bootstrap
+ADD entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
