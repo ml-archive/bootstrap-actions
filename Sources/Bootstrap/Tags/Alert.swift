@@ -2,15 +2,15 @@ import Leaf
 import TemplateKit
 
 /// Bootstrap Alert Tag
+///
 public final class AlertTag: TagRenderer {
     /**
-     render
+     Render
      
-     - important: This is the important read for this func
-     - parameters:
-        tag : TagContext
-     - returns:
-        Future<TemplateData>
+     - Important: This is the important read for this func
+     - Parameters:
+        - tag : TagContext
+     - Returns: Future<TemplateData>
      */
     public func render(tag: TagContext) throws -> Future<TemplateData> {
         var style = ColorKeys.primary.rawValue
