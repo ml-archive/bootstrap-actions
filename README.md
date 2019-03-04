@@ -148,5 +148,5 @@ This package is open-sourced software licensed under the [MIT license](http://op
 
 
 ## Docs
-[Read the docs](https://nodes-vapor.github.io/bootstrap-actions/docs/)
+[Read the docs](https://nodes-vapor.github.io/bootstrap-actions/docs/){:target="_blank"}
 
