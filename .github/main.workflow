@@ -4,11 +4,11 @@ action "documentation" {
 
 workflow "Auto docs" {
   on = "release"
-  resolves = ["./action-documentation"]
+  resolves = ["Jazzy docs"]
 }
 
-action "./action-documentation" {
-  uses = "./action-documentation"
+action "Jazzy docs" {
+  uses = "git@github.com:nodes-vapor/github-actions.git/actions/jazzy-docs"
   secrets = [
     "GITHUB_TOKEN",
     "GH_USER",
