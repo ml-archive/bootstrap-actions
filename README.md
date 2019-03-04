@@ -145,3 +145,7 @@ This package is developed and maintained by the Vapor team at [Nodes](https://ww
 ## 📄 License
 
 This package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+---
+permalink: /docs/index.html
+---
