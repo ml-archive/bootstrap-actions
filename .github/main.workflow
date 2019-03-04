@@ -9,5 +9,6 @@ action "Jazzy docs" {
     "GITHUB_TOKEN",
     "GH_USER",
     "GH_EMAIL",
+    "TARGET",
   ]
 }
