@@ -3,6 +3,15 @@ import TemplateKit
 
 /// Bootstrap Alert Tag
 public final class AlertTag: TagRenderer {
+    /**
+     render
+     
+     - important: This is the important read for this func
+     - parameters:
+        tag : TagContext
+     - returns:
+        Future<TemplateData>
+     */
     public func render(tag: TagContext) throws -> Future<TemplateData> {
         var style = ColorKeys.primary.rawValue
         var classes: String?
